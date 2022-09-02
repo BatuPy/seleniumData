@@ -30,6 +30,7 @@ headers= {
 bozulanDoviz=input("Bozulan Döviz Türü: ")
 alinanDoviz=input("Alınan Döviz Türü: ")
 miktar=int(input(f"Ne kadar {bozulanDoviz} bozdurmak istiyorsunuz? "))
+counter=1
 
 
 result=requests.get(apiURL+bozulanDoviz,headers=headers)
